@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShopUp</string>
+    <string name="mainbtn">SHOP NOW!</string>
+    <string name="type1">Lets shopping now!</string>
+    <string name="btn1">SHOP NOW!</string>
+    <string name="text1">Lets shopping now!</string>
+    <string name="text2">Add Items</string>
+    <string name="itemnumb">Item No.</string>
+    <string name="item">item no.</string>
+    <string name="img1">Image</string>
+    <string name="price">Price</string>
+    <string name="pr">Price (RS)</string>
+    <string name="prr">Price (Rs..)</string>
+    <string name="quan">Quantity</string>
+    <string name="quanti">quantity</string>
+    <string name="size">Sizes</string>
+    <string name="sizee">sizes</string>
+    <string name="add">Add The Item</string>
+</resources>

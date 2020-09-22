@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItems_2nd_Shops">
+
+    <TextView
+        android:id="@+id/slogn_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Category"
+        android:textAlignment="center"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="26dp"
+
+        android:textStyle="bold|italic" />
+    
+    <LinearLayout
+        android:id="@+id/linear_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogn_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/T_shirt"
+        android:layout_width="199dp"
+        android:layout_height="173dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/t2" />
+
+    <ImageView
+        android:id="@+id/keytag"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_below="@+id/T_shirt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/k3" />
+
+    <ImageView
+        android:id="@+id/mug"
+        android:layout_width="168dp"
+        android:layout_height="156dp"
+        android:layout_below="@+id/T_shirt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="236dp"
+        android:src="@drawable/m5" />
+
+    <ImageView
+        android:id="@+id/bag"
+        android:layout_width="173dp"
+        android:layout_height="151dp"
+        android:layout_below="@+id/mug"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/b2" />
+
+    <ImageView
+        android:id="@+id/cap"
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:layout_below="@+id/mug"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginEnd="19dp"
+        android:src="@drawable/c1" />
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="202dp"
+        android:layout_height="208dp"
+        android:layout_below="@+id/cap"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="201dp"
+        android:src="@drawable/bb1" />
+</RelativeLayout>

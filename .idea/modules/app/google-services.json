@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "490010645601",
+    "firebase_url": "https://shopup-9b8e9.firebaseio.com",
+    "project_id": "shopup-9b8e9",
+    "storage_bucket": "shopup-9b8e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490010645601:android:30a85d1a8811ddc5dfc620",
+        "android_client_info": {
+          "package_name": "com.example.shopup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490010645601-li0qs9t94n0u2v2j1aci4usij9kb1s3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopup",
+            "certificate_hash": "7d107494d14aca3f05f30c97d878b153df633a0a"
+          }
+        },
+        {
+          "client_id": "490010645601-1e7ns6ug3o8f51sr5rk617qjs0cnel6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChNzgVZ_iSGHNbsORkD6M0io2ZZAmc7T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490010645601-1e7ns6ug3o8f51sr5rk617qjs0cnel6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
